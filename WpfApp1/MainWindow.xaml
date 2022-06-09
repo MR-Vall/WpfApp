@@ -40,8 +40,9 @@
                 />
 
         <Image Source="https://differbetween.com/storage/img/images_2/what_car_should_i_buy.png"
-               Grid.Column="4"
-               Grid.Row="5"/>
+               Grid.Column="1" Stretch="UniformToFill"
+               Grid.Row="5" Grid.ColumnSpan="4"/>
+            
 
     </Grid>
 </Window>
