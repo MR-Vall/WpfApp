@@ -7,6 +7,41 @@
         mc:Ignorable="d"
         Title="Audi" Height="450" Width="800">
     <Grid>
-        
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="20" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Column="1" Grid.Row="1" FontSize="40" 
+                   FontWeight="bold" Text="Skoda" Grid.ColumnSpan="3"
+                   Margin="0,0,0,10"/>
+
+        <TextBlock Grid.Column="1" Grid.Row="2" Text="Velkommen til Skoda" Grid.ColumnSpan="3"/>
+
+        <Image Source="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/f5f/2020.png?wid=850"
+               Grid.Column="1"
+               Grid.Row="3"
+               Width="380"
+               Margin="10"/>
+
+        <Button
+            x:Name="BackButton" Content="Tilbage" Grid.Column="4"
+                Grid.Row="5" Margin=" 10" Click="BackButton_Click"
+                HorizontalAlignment="right" Width="100" Height=" 70" VerticalAlignment="Bottom"
+                />
     </Grid>
 </Window>

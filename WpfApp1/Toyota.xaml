@@ -36,12 +36,11 @@
                Grid.Column="1"
                Grid.Row="3"
                Width="250"
-               Margin="10"
-               Grid.ColumnSpan="3"/>
+               Margin="10"/>
         <Button
             x:Name="BackButton" Content="Tilbage" Grid.Column="4"
                 Grid.Row="5" Margin=" 10" Click="BackButton_Click"
-                HorizontalAlignment="right" Width="100"
+                HorizontalAlignment="right" Width="100"  Height=" 70" VerticalAlignment="Bottom"
                 />
 
     </Grid>
