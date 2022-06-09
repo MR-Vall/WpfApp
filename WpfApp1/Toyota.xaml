@@ -32,16 +32,17 @@
 
         <TextBlock Grid.Column="1" Grid.Row="2" Text="Velkommen til Toyota" Grid.ColumnSpan="3"/>
 
-
-
-
-
         <Image Source="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2023-toyota-gr-corolla-111-1648581910.jpg"
                Grid.Column="1"
                Grid.Row="3"
                Width="250"
                Margin="10"
                Grid.ColumnSpan="3"/>
-        
+        <Button
+            x:Name="BackButton" Content="Tilbage" Grid.Column="4"
+                Grid.Row="5" Margin=" 10" Click="BackButton_Click"
+                HorizontalAlignment="right" Width="100"
+                />
+
     </Grid>
 </Window>

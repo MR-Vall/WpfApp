@@ -23,5 +23,12 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void BackButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow win1 = new MainWindow();
+                win1.Show();
+            this.Close();
+        }
     }
 }
