@@ -32,7 +32,7 @@
         <TextBlock Grid.Column="1" Grid.Row="2" Text="Bil Mærke: Toyota, Audi, Skoda" Grid.ColumnSpan="3"/>
 
         <TextBox x:Name="BilMærkeText" Grid.Column="1" Grid.Row="3"
-                 Width="150"
+                 Width="150" CharacterCasing="Upper"
                  Height="25"/>
 
         <Button x:Name="SubmitButton" Content="Søg" Grid.Column="2"

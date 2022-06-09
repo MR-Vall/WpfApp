@@ -27,10 +27,10 @@ namespace WpfApp1
 
         private void SubmitButton_Click(object sender, RoutedEventArgs e)
         {
-            string choice1 = "toyota";
+            string choice1 = "TOYOTA";
+            string choice2 = "AUDI";
+            string choice3 = "SKODA";
             string userInput = BilMærkeText.Text.ToString();
-            string choice2 = "audi";
-            string choice3 = "skoda";
 
             if (userInput == choice1)
             {
@@ -50,6 +50,10 @@ namespace WpfApp1
                 win4.Show();
                 this.Close();
 
+            }
+            else
+            {
+                MessageBox.Show("Den du ledder efter findes ikke");
             }
             
         }
